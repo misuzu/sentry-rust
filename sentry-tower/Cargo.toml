@@ -1,6 +1,6 @@
 [package]
 name = "sentry-tower"
-version = "0.23.0"
+version = "0.24.0"
 authors = ["Sentry <hello@sentry.io>"]
 license = "Apache-2.0"
 readme = "README.md"
@@ -14,7 +14,7 @@ edition = "2018"
 [dependencies]
 tower-layer = "0.3"
 tower-service = "0.3"
-sentry-core = { version = "0.23.0", path = "../sentry-core", default-features = false, features = ["client"] }
+sentry-core = { version = "0.24.0", path = "../sentry-core", default-features = false, features = ["client"] }
 
 [dev-dependencies]
 anyhow = "1"
